@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+strong {
+    color: #21d87d;
+}
+
+
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+}
+
+.content {
+    width: 593px;
+}
+
+.image {
+    width: 580px;
+}
