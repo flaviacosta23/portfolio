@@ -40,3 +40,27 @@ strong {
 .image {
     width: 580px;
 }
+
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: #000000;
+    color: #f6f6f6;
+    border: 1px solid #21d87d;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 16px 5%;
+}
+
+.itens{
+    text-decoration: none;
+    color: #f6f6f6;
+    margin-left: 5%;
+}
+
+.itens:hover {
+    color: #21d87d;
+}
