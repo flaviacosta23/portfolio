@@ -1,66 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@600&family=Roboto:ital,wght@0,100;0,400;0,900;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;700&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+/* este código com * serve para resetar o css de todos os elementos */
 
 body {
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #000000;
-    color: #f6f6f6;
-    font-family: 'Roboto', sans-serif;
-    
-
-}
-
-strong {
-    color: #21d87d;
-}
-
-
-.presentation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5%;
-}
-
-.title {
-    font-family: 'Inter', sans-serif;
-}
-
-.content {
-    width: 593px;
-}
-
-.image {
-    width: 580px;
-}
-
-.button{
-    width: 150px;
-    height: 30px;
-    background-color: #000000;
-    color: #f6f6f6;
-    border: 1px solid #21d87d;
-    border-radius: 5px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #F6F6F6;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    background-color: rgba(255, 255, 255, 0.10);
-    padding: 16px 5%;
+  background: rgba(255, 255, 255, 0.10);
+  padding: 16px 5%;
 }
 
-.itens{
-    text-decoration: none;
-    color: #f6f6f6;
-    margin-left: 5%;
+.menu {
+  display: flex;
+  gap: 80px;
 }
 
-.itens:hover {
-    color: #21d87d;
+.items {
+  color: #F2F2F2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+
+  &:focus {
+    color: #21D87D;
+  }
+}
+
+.presentation {
+  flex:1;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.distak-title {
+  color: #21D87D;
+}
+
+.main-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes pulseButton {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.social-button {
+  color: #ffffff;
+  width: 120px;
+  padding: 20px 78px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  text-decoration:none;
+  border: 1px solid #21D87D;
+
+  &:hover {
+    background-color: #040E1D;
+  }
+}
+
+.animation-button {
+  animation: pulseButton 2s ease 0s infinite normal forwards;
+}
+
+.image {
+  width: 580px;
+}
+
+.footer {
+  background: rgba(255, 255, 255, 0.10);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #F2F2F2;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 24px;
 }
