@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@600&family=Roboto:ital,wght@0,100;0,400;0,900;1,900&display=swap');
 
+:root{
+    --primary-color: #000000;
+    --second-color: rgba(255, 255, 255, 0.10);
+    --distak-color: #21D87D;
+    --primary-text-color: #F2F2F2;
+    --color-hover: #040E1D;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,15 +17,15 @@
 body {
   height: 100vh;
   box-sizing: border-box;
-  background-color: #000000;
-  color: #F6F6F6;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 .header {
-  background: rgba(255, 255, 255, 0.10);
+  background: var(--second-color);
   padding: 16px 5%;
 }
 
@@ -27,7 +35,7 @@ body {
 }
 
 .items {
-  color: #F2F2F2;
+  color: var(--primary-text-color);
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -36,7 +44,7 @@ body {
   text-decoration: none;
 
   &:focus {
-    color: #21D87D;
+    color: var(--distak-color);
   }
 }
 
@@ -65,7 +73,7 @@ body {
 }
 
 .distak-title {
-  color: #21D87D;
+  color: var(--distak-color);
 }
 
 .main-text {
@@ -73,6 +81,16 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
+}
+
+.contact{
+  width: 100%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+
 }
 
 .social {
@@ -110,7 +128,7 @@ body {
 }
 
 .social-button {
-  color: #ffffff;
+  color: var(--primary-text-color);
   width: 120px;
   padding: 20px 78px;
   border-radius: 16px;
@@ -120,10 +138,10 @@ body {
   font-weight: 600;
   line-height: 36px;
   text-decoration:none;
-  border: 1px solid #21D87D;
+  border: 2px solid var(--distak-color);
 
   &:hover {
-    background-color: #040E1D;
+    background-color: var(--color-hover);
   }
 }
 
@@ -136,13 +154,13 @@ body {
 }
 
 .footer {
-  background: rgba(255, 255, 255, 0.10);
+  background-color: var(--second-color);
   display: flex;
   justify-content: center;
 }
 
 .footer-text {
-  color: #F2F2F2;
+  color: var(--primary-text-color);
   font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
