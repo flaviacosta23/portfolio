@@ -149,8 +149,16 @@ body {
   animation: pulseButton 2s ease 0s infinite normal forwards;
 }
 
-.image {
+.image-overflow {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.image-index {
   width: 580px;
+  
 }
 
 .footer {
