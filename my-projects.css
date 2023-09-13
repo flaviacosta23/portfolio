@@ -1,0 +1,155 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 5px; padding: 0;
+    font-size: 25px;
+  }
+
+.angry-grid {
+   display: grid; 
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+   gap: 55px;
+   height: 100%;
+   
+   
+}
+
+.image-fr{
+    width: 100%;
+    max-width: 275px;
+}
+
+.image-2fr{
+   width: 100%;
+   max-width: 605px;
+}
+
+.image-3fr{
+    width: 100%;
+    max-width: 935px;
+}
+  
+#item-0 {
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 2;
+
+  
+}
+#item-1 {
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   
+}
+#item-2 {
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 5;
+   
+}
+#item-3 {
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 3;
+   
+}
+#item-4 {
+   grid-row-start: 2;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+}
+#item-5 {
+   grid-row-start: 2;
+   grid-column-start: 4;
+
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}
+#item-6 {
+   grid-row-start: 3;
+   grid-column-start: 3;
+
+   grid-row-end: 4;
+   grid-column-end: 4;
+   
+}
+#item-7 {
+   grid-row-start: 3;
+   grid-column-start: 4;
+
+   grid-row-end: 5;
+   grid-column-end: 5;
+   
+}
+#item-8 {
+   grid-row-start: 4;
+   grid-column-start: 3;
+
+   grid-row-end: 5;
+   grid-column-end: 4;
+   
+}
+#item-9 {
+   grid-row-start: 4;
+   grid-column-start: 1;
+
+   grid-row-end: 5;
+   grid-column-end: 3;
+   
+}
+#item-10 {
+   grid-row-start: 5;
+   grid-column-start: 1;
+
+   grid-row-end: 6;
+   grid-column-end: 4;
+   
+}
+#item-11 {
+   grid-row-start: 5;
+   grid-column-start: 4;
+
+   grid-row-end: 6;
+   grid-column-end: 5;
+   
+}
+#item-12 {
+   grid-row-start: 6;
+   grid-column-start: 1;
+
+   grid-row-end: 7;
+   grid-column-end: 2;
+   
+}
+#item-13 {
+   grid-row-start: 6;
+   grid-column-start: 2;
+
+   grid-row-end: 7;
+   grid-column-end: 4;
+   
+}
+#item-14 {
+   grid-row-start: 6;
+   grid-column-start: 4;
+
+   grid-row-end: 7;
+   grid-column-end: 5;
+   
+}
+
