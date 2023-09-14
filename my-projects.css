@@ -1,6 +1,6 @@
 html, body {
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
     margin: 5px; padding: 0;
     font-size: 25px;
   }
@@ -78,6 +78,8 @@ html, body {
 
    grid-row-end: 3;
    grid-column-end: 5;
+
+   text-align: right;
    
 }
 #item-6 {
@@ -127,6 +129,7 @@ html, body {
    grid-row-end: 6;
    grid-column-end: 5;
    
+   text-align: right;
 }
 #item-12 {
    grid-row-start: 6;
@@ -142,6 +145,8 @@ html, body {
 
    grid-row-end: 7;
    grid-column-end: 4;
+
+   text-align: center;
    
 }
 #item-14 {
