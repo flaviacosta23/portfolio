@@ -15,7 +15,6 @@
 /* este código com * serve para resetar o css de todos os elementos */
 
 body {
-  /*height: 100vh;*/
   box-sizing: border-box;
   background-color: var(--primary-color);
   color: var(--primary-text-color);
