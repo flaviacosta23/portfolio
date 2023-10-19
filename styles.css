@@ -26,6 +26,7 @@ body {
 .header {
   background: var(--second-color);
   padding: 16px 5%;
+  width: 100%;
 }
 
 .menu {
