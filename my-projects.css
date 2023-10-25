@@ -8,6 +8,10 @@
    
    gap: 55px;
    height: 100%;
+   width: 100%;
+   padding-right: 10%;
+
+   background: linear-gradient(150deg, var(--primary-color) 33%, var(--gradient-color1) 76%, var(--gradient-colo2) 100%);
    
 }
   
@@ -108,6 +112,33 @@
     width: 100%;
     max-width: 605px;
     margin: 5%;
+}
+
+@media (max-width: 1200px) {
+
+   .angry-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+   }
+
+   .item-1 {
+      order: 1;
+   }
+
+   .item-0 {
+      order: 2;
+   }
+
+   .item-2 {
+      order: 3;
+   }
+
+   .item-3 {
+      order: 4;
+   }
+
 }
   
 
