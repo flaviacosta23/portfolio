@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@600&family=Roboto:ital,wght@0,100;0,400;0,900;1,900&display=swap');
 
 :root{
-    --primary-color: #331D2C;
-    --second-color: #5c3c5a;
+    --primary-color: #11090f;
+    --second-color: #271122;
+    --gradient-color1: #3b114d;
+    --gradient-colo2: #503b5e;
     --distak-color: #F99417;
     --primary-text-color: #F5F5F5;
-    --color-hover: #040E1D;
+    --color-hover: #5e5057;
 }
 
 * {
@@ -50,12 +52,14 @@ body {
 
 .presentation {
   flex:1;
-  margin: 5%;
+  padding: 5%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-evenly;
+  background: linear-gradient(150deg, var(--primary-color) 33%, var(--gradient-color1) 76%, var(--gradient-colo2) 100%);
   width: 100%;
 }
+
 
 .content {
   width: 610px;
@@ -165,9 +169,9 @@ body {
 .footer {
   width: 100%;
   background-color: var(--second-color);
-
   display: flex;
   justify-content: center;
+  padding: 8px 5%;
  
 }
 
@@ -242,8 +246,6 @@ body {
     width: 300px;
     bottom: 65px;
   }
-  .footer{
-    width: 100%;
-  }
+ 
 
 }
