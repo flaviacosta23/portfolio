@@ -9,5 +9,7 @@
 }
 
 .image {
-    width: 580px;
+    max-width: 580px;
+    width: 100%;
+    height: 100%;
   }
