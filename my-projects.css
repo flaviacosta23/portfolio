@@ -9,7 +9,8 @@
    gap: 55px;
    height: 100%;
    width: 100%;
-   padding-right: 10%;
+   padding: 0 5% 0 5%;
+   align-items: center;
 
    background: linear-gradient(150deg, var(--primary-color) 33%, var(--gradient-color1) 76%, var(--gradient-colo2) 100%);
    
@@ -105,13 +106,11 @@
    font-weight: 400;
    line-height: 36px;
    text-align: center;
-   margin: 5%;
 }
 
 .image-project{
     width: 100%;
     max-width: 605px;
-    margin: 5%;
 }
 
 @media (max-width: 1200px) {
