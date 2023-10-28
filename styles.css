@@ -23,6 +23,7 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
+  padding-right: 9%;
 }
 
 .header {
@@ -220,6 +221,7 @@ body {
     align-items: center;
     width: fit-content;
     text-align: center;
+    font-size: 1rem;
   }
 
   .items.hidden-desk {
@@ -234,6 +236,7 @@ body {
   .social {
     flex-direction: column;
     gap: 32px;
+    align-items: center;
   }
 
   .social-button {
