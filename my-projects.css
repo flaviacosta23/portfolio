@@ -9,7 +9,8 @@
    gap: 55px;
    height: 100%;
    width: 100%;
-   padding: 0 5% 0 5%;
+   padding: 5%;
+
    align-items: center;
 
    background: linear-gradient(150deg, var(--primary-color) 33%, var(--gradient-color1) 76%, var(--gradient-colo2) 100%);
@@ -111,6 +112,10 @@
 .image-project{
     width: 100%;
     max-width: 605px;
+   
+   &:hover{
+      opacity: 0.5;
+   }
 }
 
 @media (max-width: 1200px) {
@@ -128,6 +133,7 @@
 
    .item-0 {
       order: 2;
+      margin-bottom: 15%;
    }
 
    .item-2 {
