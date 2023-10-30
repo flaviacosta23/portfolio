@@ -7,7 +7,7 @@
     --gradient-colo2: #503b5e;
     --distak-color: #F99417;
     --primary-text-color: #F5F5F5;
-    --color-hover: #5e5057;
+    --color-hover: #753981;
 }
 
 * {
@@ -156,14 +156,14 @@ body {
   animation: pulseButton 2s ease 0s infinite normal forwards;
 }
 
-.image-overflow {
+.image-box {
     overflow: hidden;
     border-radius: 50%;
     width: 400px;
     height: 400px;
 }
 
-.image-index {
+.image {
   max-width: 580px;
   width: 100%;
   height: 100%;
@@ -244,12 +244,13 @@ body {
   }
 
   .image-box {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 
   .image {
-    width: 300px;
+    width: 250px;
+    height: 250px;
     bottom: 65px;
   }
  
